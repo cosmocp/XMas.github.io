@@ -1,0 +1,49 @@
+.bck{
+  background-color: green;
+}
+.date{
+  color: darkred;
+  position: relative;
+  font-size: 150%;
+  left: 50%;
+  top:50%;
+}
+.day{
+  color: darkred;
+  font-size: 150%;
+  position:absolute ;
+  left: 55%;
+  top:4%;
+  margin-top: 0;
+}
+.hours{
+  color: darkred;
+  font-size: 150%;
+  position:absolute ;
+  left: 55%;
+  top:13%;
+  margin-top: 0;
+}
+.minutes{
+  color: darkred;
+  font-size: 150%;
+  position:absolute ;
+  left: 55%;
+  top:21%;
+  margin-top: 0;
+}
+.seconds{
+  color: darkred;
+  font-size: 150%;
+  position:absolute ;
+  left: 55%;
+  top:30%;
+  margin-top: 0;
+}
+.h1{
+    color: red;
+    font-size: 150%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}

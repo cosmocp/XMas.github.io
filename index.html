@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="class.css">
+    <meta charset="utf-8">
+    <title>Time till christmas!</title>
+  </head>
+  <body class="bck">
+    <h1 class="h1"> Till Chirstmas</h1>
+    <p class="date" id="days"></p>
+    <p class="day"> days</p>
+    <p class="date" id="hours"></p>
+    <p class="hours"> hours</p>
+    <p class="date" id="minutes"></p>
+    <p class="minutes"> minutes</p>
+    <p class="date" id="seconds"></p>
+    <p class="seconds"> seconds</p>
+    <script>
+      const x = new Date(2022,11,25);
+      const da = new Date();
+      var t = Math.abs(x-da);
+      var d = t/(1000*3600*24);
+      var days = Math.floor(d);
+      var h= (d-days)*24;
+      var hours = Math.floor(h);
+      var m = (h-hours)*60;
+      var minutes = Math.floor(m);
+      var s = (m-minutes)*60;
+      var seconds = Math.floor(s);
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+  </script>
+</body>
+</html>
